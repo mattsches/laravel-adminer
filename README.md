@@ -12,12 +12,18 @@ composer require onecentlin/laravel-adminer
 
 OR
 
-Update `composer.json` in require section:
+Update `composer.json` in require and repositories section:
 
 ```json
 "require": {
-    "onecentlin/laravel-adminer": "^4.6"
+    "onecentlin/laravel-adminer": "dev-4.7"
 },
+"repositories": [
+{
+  "type": "vcs",
+  "url": "https://github.com/mattsches/laravel-adminer"
+}
+]
 ```
 
 Run:

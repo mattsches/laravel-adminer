@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": ">=5.4.0",
         "illuminate/contracts": "~5.0",
         "illuminate/routing": "~5.0",
         "illuminate/support": "~5.0"
@@ -25,7 +25,7 @@
         }
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "source"
     },
     "minimum-stability": "stable"
 }
